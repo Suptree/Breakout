@@ -9,16 +9,17 @@
 // #include "Box.h"
 // #include "Game.h"
 // #include "Vector2D.h"
+#include "Collision.h"
 #include "CreateFactory.h"
 class Game {
 public:
-  void start();
-  void update();
-  void display();
+  void start( CreateFactory & cf );
+  void update(CreateFactory & cf );
+  void display( CreateFactory & cf);
   void keyPressed(int key);
   void keyReleased(int key);
 
-  CreateFactory createfactory;
+
 
 
 
@@ -26,6 +27,7 @@ public:
   // Circle c1;
   // Bar bar;
   // Box box;
+  Collision col;
 
 };
 

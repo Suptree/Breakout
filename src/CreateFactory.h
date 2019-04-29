@@ -12,7 +12,7 @@ public:
 
   const Circle & ball() const { return M_ball; }
   const Box & box() const { return M_box; }
-  const Bar & bar() const { return M_ball; }
+  const Bar & bar() const { return M_bar; }
 
 
 };

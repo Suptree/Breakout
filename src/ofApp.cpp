@@ -2,14 +2,14 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
 
-  game.start();
+  game.start(cf);
 
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
 
-  game.update();
+  game.update(cf);
 
 
 }
@@ -17,7 +17,7 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
 
-  game.display();
+  game.display(cf);
 
 }
 

@@ -1,7 +1,7 @@
 #include "Game.h"
 #include <iostream>
 #include "CreateFactory.h"
-void Game::start(){
+void Game::start( CreateFactory & cf){
   ofBackground( 255, 255, 255 );
   ofSetCircleResolution(64);
   // c1.init(100, 10, 1.0);//y座標,円の大きさ,スピード
@@ -14,30 +14,34 @@ void Game::start(){
 
 }
 
-void Game::update(){
-  c1.update();
+void Game::update( CreateFactory & cf){
 
-  bar.update();
-  box.update();
-  std::cout << bar.pos.x << std::endl;
+  // c1.update();
+  //
+  // bar.update();
+  // box.update();
+  // std::cout << bar.pos.x << std::endl;
+
 
 
 }
 
-void Game::display(){
+void Game::display( CreateFactory & cf){
   ofSetColor(0,0,0);
-  c1.display();
+  // c1.display();
+  //
+  // bar.display();
+  // box.display();
+  
 
-  bar.display();
-  box.display();
 
 }
 
 void Game::keyPressed(int key){
-  bar.keyPressed(key);
+  // bar.keyPressed(key);
 
 }
 
 void Game::keyReleased(int key){
-  bar.keyReleased(key);
+  // bar.keyReleased(key);
 }

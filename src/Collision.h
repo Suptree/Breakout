@@ -5,7 +5,7 @@
 
 class Collision {
 
-  bool execute(const CreateFactory * cf);
+  bool execute( CreateFactory  cf);
 
 
 
