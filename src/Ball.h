@@ -10,7 +10,7 @@ public:
 
   Ball();
 
-  void init( float _y, int _eSize, float _speed ); //初期化するときに使うやつ
+  // void init( float _y, int _eSize, float _speed ); //初期化するときに使うやつ
   void update();//更新する
   void display();//描画
 
@@ -18,8 +18,8 @@ public:
 
   //ofVec2f position;//これも使えるかも
 
-  const float eSize;//円の大きさ
-  const float speed;
+  const float eSize;//ボールの大きさ
+  const float speed;//ボールの速さ
 
   bool XPlus = true;//衝突判定のときに使う
   bool YPlus = false;

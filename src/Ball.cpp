@@ -8,7 +8,7 @@ Ball::Ball():eSize(15.0),speed(10.0)
   pos.y = 200.0;
 }
 
-void Ball::col_box()
+void Ball::col_box()//ボックスとの当たり判定
 {
   XPlus = !XPlus;
   YPlus = !YPlus;
@@ -44,5 +44,5 @@ void Ball::update(){
 }
 
 void Ball::display(){
-  ofDrawCircle( pos.x, pos.y, eSize );//円byouga
+  ofDrawCircle( pos.x, pos.y, eSize );//円を描画する
 }

@@ -13,6 +13,6 @@ public:
 
   const double weight;
   const double height;
-  bool M_isValid;
+  bool M_isValid;//falseの場合は、画面に表示させなくする。
 };
 #endif

@@ -14,7 +14,7 @@ void Box::setPosition(int x, int y)
 
 void Box::update() {
 
-  //接触したら消えるコードを書く
+
 
 }
 
