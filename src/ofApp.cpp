@@ -2,14 +2,14 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
 
-  game.start(cf);
+  game.start();
 
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
 
-  game.update(cf);
+  game.update();
 
 
 }
@@ -17,7 +17,7 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
 
-  game.display(cf);
+  game.display();
 
 }
 
@@ -25,13 +25,11 @@ void ofApp::draw(){
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
   game.keyPressed(key);
-
 }
 
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
   game.keyReleased(key);
-
 }
 
 //--------------------------------------------------------------

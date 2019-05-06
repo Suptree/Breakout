@@ -1,13 +1,18 @@
-
 #include "Circle.h"
+#include "ofMain.h"
 
-Circle::Circle():eSize(15.0),speed(3.0)
+Circle::Circle():eSize(15.0),speed(10.0)
 {
   //コンストラクタ
   pos.x = ofGetWidth() / 2;//真ん中の位置から始める。
   pos.y = 200.0;
 }
 
+void Circle::col_box()
+{
+  XPlus = !XPlus;
+  YPlus = !YPlus;
+}
 
 void Circle::update(){
 

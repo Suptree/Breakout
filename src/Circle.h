@@ -2,7 +2,6 @@
 #define CIRCLE_H
 
 #include <stdio.h>
-#include "ofMain.h"
 #include "Object.h"
 
 
@@ -14,6 +13,8 @@ public:
   void init( float _y, int _eSize, float _speed ); //初期化するときに使うやつ
   void update();//更新する
   void display();//描画
+
+  void col_box(); // 箱とあたった時にどうするか処理を書く
 
   //ofVec2f position;//これも使えるかも
 

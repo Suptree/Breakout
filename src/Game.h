@@ -1,34 +1,27 @@
 #ifndef GAME_H_
 #define GAME_H_
 
-#include "ofMain.h"
-#include <iostream>
-
-// #include "Circle.h"
-// #include "Bar.h"
-// #include "Box.h"
-// #include "Game.h"
-// #include "Vector2D.h"
-#include "Collision.h"
 #include "CreateFactory.h"
+
+class Bar;
+class Box;
+class Circle;
+
 class Game {
 public:
-  void start( CreateFactory & cf );
-  void update(CreateFactory & cf );
-  void display( CreateFactory & cf);
+  void start();
+  void update();
+  void display();
   void keyPressed(int key);
   void keyReleased(int key);
 
+  // オブジェクト生成クラス
+  CreateFactory mFactory;
 
-
-
-
-
-  // Circle c1;
-  // Bar bar;
-  // Box box;
-  Collision col;
-
+  // 操作用ポインタ
+  Bar* Mp_bar;
+  Circle* Mp_ball;
+  std::array<Box*, 102> Mp_Box_List;
 };
 
 #endif

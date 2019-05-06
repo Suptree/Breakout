@@ -2,8 +2,6 @@
 #define BAR_H
 
 #include <iostream>
-#include "ofMain.h"
-#include "Vector2D.h"
 #include "Object.h"
 
 
@@ -18,6 +16,10 @@ public:
   void keyPressed(int key);//キーボードの読み取り
   void keyReleased(int key);
 
+  float getWidth() const
+  {
+    return width;
+  };
   // float xPos;//x座標
   // float yPos;//y座標
   //Vector2D pos( ofGetWidth() / 2.0 ,ofGetHeight() *  ( 8.0 / 10.0 ));
@@ -25,12 +27,12 @@ public:
   //Vector2D pos(xPos,yPos);
 
 
-  const float width;//長さ
-  const float height;//高さ
-  const float speed;//動く速さ
+  float width;//長さ
+  float height;//高さ
+  float speed;//動く速さ
 
-  bool XPlus = false;//右に進む
-  bool XMinus = false;//左に進む
+  bool XPlus;//右に進む
+  bool XMinus;//左に進む
 
 
 //  bool YPlus = false;
