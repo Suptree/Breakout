@@ -1,7 +1,7 @@
 #include "Bar.h"
 #include "ofMain.h"
 
-Bar::Bar():width(100),height(10),speed(10){
+Bar::Bar():width(100),height(10),speed(10){//コンストラクタ 
   pos.x = ofGetWidth() / 2.0;
   pos.y = ofGetHeight() *  ( 8.0 / 10.0 );
   XPlus = false;

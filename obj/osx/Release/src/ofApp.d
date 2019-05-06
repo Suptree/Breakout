@@ -824,7 +824,7 @@ obj/osx/Release/src/ofApp.o: \
   /Users/Daiki/of_v0.10.1_osx_release/libs/openFrameworks/3d/ofEasyCam.h \
   /Users/Daiki/of_v0.10.1_osx_release/apps/myApps/hello_open_frameworks/src/Game.h \
   /Users/Daiki/of_v0.10.1_osx_release/apps/myApps/hello_open_frameworks/src/CreateFactory.h \
-  /Users/Daiki/of_v0.10.1_osx_release/apps/myApps/hello_open_frameworks/src/Circle.h \
+  /Users/Daiki/of_v0.10.1_osx_release/apps/myApps/hello_open_frameworks/src/Ball.h \
   /Users/Daiki/of_v0.10.1_osx_release/apps/myApps/hello_open_frameworks/src/Object.h \
   /Users/Daiki/of_v0.10.1_osx_release/apps/myApps/hello_open_frameworks/src/Vector2D.h \
   /Users/Daiki/of_v0.10.1_osx_release/apps/myApps/hello_open_frameworks/src/Box.h \
@@ -2478,7 +2478,7 @@ obj/osx/Release/src/ofApp.o: \
 
 /Users/Daiki/of_v0.10.1_osx_release/apps/myApps/hello_open_frameworks/src/CreateFactory.h:
 
-/Users/Daiki/of_v0.10.1_osx_release/apps/myApps/hello_open_frameworks/src/Circle.h:
+/Users/Daiki/of_v0.10.1_osx_release/apps/myApps/hello_open_frameworks/src/Ball.h:
 
 /Users/Daiki/of_v0.10.1_osx_release/apps/myApps/hello_open_frameworks/src/Object.h:
 

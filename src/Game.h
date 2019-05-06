@@ -5,7 +5,7 @@
 
 class Bar;
 class Box;
-class Circle;
+class Ball;
 
 class Game {
 public:
@@ -20,7 +20,7 @@ public:
 
   // 操作用ポインタ
   Bar* Mp_bar;
-  Circle* Mp_ball;
+  Ball* Mp_ball;
   std::array<Box*, 102> Mp_Box_List;
 };
 

@@ -1,16 +1,16 @@
 #include "Collision.h"
-#include "Circle.h"
+#include "Ball.h"
 #include "Bar.h"
 #include "Box.h"
 
-bool Collision::ball_bar_col(Bar* bar, Circle* ball)
+bool Collision::ball_bar_col(Bar* bar, Ball* ball)
 {
   if( bar->pos.x == ball->pos.x ){
     std::cout << "[Collision] Bar-Ball Hit" << std::endl;
   }
 }
 
-bool Collision::ball_box_col(Box* box, Circle* ball)
+bool Collision::ball_box_col(Box* box, Ball* ball)
 {
   double box_x = box->pos.x;
   double box_y = box->pos.y;

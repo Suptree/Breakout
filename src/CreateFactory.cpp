@@ -4,7 +4,7 @@ Bar* CreateFactory::getBar() {
   return &M_bar;
 }
 
-Circle* CreateFactory::getBall()  {
+Ball* CreateFactory::getBall()  {
   return &M_ball;
 }
 

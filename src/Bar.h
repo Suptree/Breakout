@@ -16,10 +16,11 @@ public:
   void keyPressed(int key);//キーボードの読み取り
   void keyReleased(int key);
 
-  float getWidth() const
-  {
-    return width;
-  };
+  // float getWidth() const
+  // //関数定義の後ろにある `const` の意味は、
+  // {
+  //   return width;
+  // };
   // float xPos;//x座標
   // float yPos;//y座標
   //Vector2D pos( ofGetWidth() / 2.0 ,ofGetHeight() *  ( 8.0 / 10.0 ));

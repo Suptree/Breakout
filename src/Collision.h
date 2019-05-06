@@ -3,14 +3,14 @@
 
 class Bar;
 class Box;
-class Circle;
+class Ball;
 
 class Collision {
 
 
 public:
-  static bool ball_bar_col(Bar* bar, Circle* ball);
-  static bool ball_box_col(Box* box, Circle* ball);
+  static bool ball_bar_col(Bar* bar, Ball* ball);
+  static bool ball_box_col(Box* box, Ball* ball);
 
 
 };
