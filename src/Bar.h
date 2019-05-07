@@ -27,6 +27,10 @@ public:
 
   //Vector2D pos(xPos,yPos);
 
+  void DrawBar();
+
+  
+
 
   float width;//長さ
   float height;//高さ

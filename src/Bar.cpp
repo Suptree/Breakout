@@ -1,7 +1,7 @@
 #include "Bar.h"
 #include "ofMain.h"
 
-Bar::Bar():width(100),height(10),speed(10){//コンストラクタ 
+Bar::Bar():width(100),height(10),speed(10){//コンストラクタ
   pos.x = ofGetWidth() / 2.0;
   pos.y = ofGetHeight() *  ( 8.0 / 10.0 );
   XPlus = false;
@@ -23,6 +23,10 @@ void Bar::update(){//バーを動かしたりする
 
 
 void Bar::display(){//描画する
+  DrawBar();
+}
+
+void Bar::DrawBar(){
   ofRect( pos.x, pos.y, width, height);
 }
 

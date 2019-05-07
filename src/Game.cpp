@@ -18,17 +18,11 @@ void Game::start(){
     Mp_Box_List[i]->setPosition(5 + 60 * (i % 17), 5 + 60 * (i / 17));
   }
 
-  // c1.init(100, 10, 1.0);//y座標,円の大きさ,スピード
-  // c2.init(200, 15, 3.0);
-  //mFactory.bar().init(100,20, 10);//width,height,speed
-  // box.init();
-
-
-  //
 
 }
 
 void Game::update(){
+
   Mp_bar->update(); // Bar のアップデート
   Mp_ball->update(); // Ball のアップデート
 
@@ -66,7 +60,7 @@ void Game::display(){
   Mp_ball->display(); // Ball
 
 
-  for(int i = 0; i < 102 ;i++)
+  for(int i = 0; i < 102 ;i++)//box
   {
     if(Mp_Box_List[i]->M_isValid == true)
     {

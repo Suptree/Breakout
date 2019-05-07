@@ -8,6 +8,6 @@ Ball* CreateFactory::getBall()  {
   return &M_ball;
 }
 
-Box* CreateFactory::getBox(int idx)  {
-  return &M_Box_List[idx];
+Box* CreateFactory::getBox(int index)  {
+  return &M_Box_List[index];
 }

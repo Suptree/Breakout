@@ -8,9 +8,18 @@
 
 bool Collision::ball_bar_col(Bar* bar, Ball* ball)
 {
+  double bar_x = bar->pos.x;
+  double bar_y = bar->pos.y;
+  double ball_x = ball->getPos().x;
+  double ball_y = ball->getPos().y;
+  double ballSize = ball->getBallRadius();
+  //double bar_width
+
+
   if( bar->pos.x == ball->pos.x ){
     std::cout << "[Collision] Bar-Ball Hit" << std::endl;
   }
+
 }
 
 bool Collision::ball_box_col(Box* box, Ball* ball)
