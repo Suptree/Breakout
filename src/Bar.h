@@ -29,7 +29,13 @@ public:
 
   void DrawBar();
 
-  
+  const float getBarWidth() const {
+    return width;
+  }
+  const float getBarHeight() const {
+    return height;
+  }
+
 
 
   float width;//長さ

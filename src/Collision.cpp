@@ -13,10 +13,14 @@ bool Collision::ball_bar_col(Bar* bar, Ball* ball)
   double ball_x = ball->getPos().x;
   double ball_y = ball->getPos().y;
   double ballSize = ball->getBallRadius();
-  //double bar_width
+  double bar_width = bar->getBarWidth() / 2.0;
+  double bar_height = bar->getBarHeight() / 2.0;
 
 
-  if( bar->pos.x == ball->pos.x ){
+  if( ball_x < bar_x - bar_width && ball_x  > bar_x + bar_width
+     )
+  {
+
     std::cout << "[Collision] Bar-Ball Hit" << std::endl;
   }
 
