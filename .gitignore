@@ -1,3 +1,16 @@
 # コメント
 *Makefile
 *igonore.cpp
+*config.make
+*obj/
+*obj
+*Project.xcconfig
+*emptyExample.png
+*openFrameworks-Info.plist
+*emptyExample.xcodeproj/
+*emptyExample.xcodeproj
+*addons.make
+*hello_open_frameworks.xcodeproj/
+*hello_open_frameworks.xcodeproj
+*bin
+*bin/
