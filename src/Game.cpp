@@ -35,7 +35,7 @@ void Game::update(){
       if( Collision::ball_box_col(Mp_Box_List[i], Mp_ball))
       {
           Mp_Box_List[i]->M_isValid = false; // Box 側の操作
-          Mp_ball->col_box(); // Ball 側の操作
+          Mp_ball->on_collision_to_box_detected(); // Ball 側の操作
       }
     }
   }

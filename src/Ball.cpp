@@ -2,14 +2,14 @@
 #include "ofMain.h"
 
 //コンストラクタ
-Ball::Ball():eSize(15.0),speed(10.0)
+Ball::Ball()
 {
   pos.x = ofGetWidth() / 2;//真ん中の位置から始める。
   pos.y = 200.0;
 }
 
 //ボックスとボールの当たり判定
-void Ball::col_box()
+void Ball::on_collision_to_box_detected()
 {
   XPlus = !XPlus;
   YPlus = !YPlus;
@@ -22,8 +22,6 @@ void Ball::update()
   col_ball_wall();
 
 
-  //バーとボックスの衝突判定
-  // col_box();
 
 }
 

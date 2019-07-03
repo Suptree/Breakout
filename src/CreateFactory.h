@@ -16,9 +16,9 @@ public:
   Ball M_ball;
   std::array<Box, 102> M_Box_List;//ブロックの数が102個用意した。
 
-  Bar* getBar();
-  Ball* getBall();
-  Box* getBox(int index);
+  Bar& getBar();
+  Ball& getBall();
+  Box& getBox(int index);
 };
 
 #endif
